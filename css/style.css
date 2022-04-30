@@ -1,0 +1,114 @@
+:root {
+    --preto: #ffffff;
+    --vermelho: #e50924;
+}
+
+/*
+    removendo formatação padrão css
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background: var(--preto);
+    font-family: helvetica Neue, sans-serif;
+}
+header .info-bg{
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.img_info img{
+    width: 60px;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container a img {
+    padding: 10px;
+    width: 120px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #000000;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+
+.filme-principal {
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url(../img/capa-house.jpg);
+    height: 400px;
+    background-size: cover; 
+    
+}
+
+.filme-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .container h3{
+    margin-top: 15%;
+    font-size: 40px;
+}
+
+.button{
+    margin-top: 40px;
+}
+
+.button button{
+    border: none;
+    background-color: rgba(0, 0, 0, .30);
+    color: white;
+    padding: 15px 30px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.button button:hover{
+    background: white;
+    color: black;
+}
+
+.button button i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+}
