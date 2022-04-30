@@ -1,7 +1,3 @@
-:root {
-    --preto: #ffffff;
-    --vermelho: #e50924;
-}
 
 /*
     removendo formatação padrão css
@@ -26,7 +22,8 @@ header .info-bg{
 }
 
 .img_info img{
-    width: 60px;
+    width: 80px;
+
 }
 header .container {
     display: flex;
@@ -110,5 +107,10 @@ header nav a:hover {
 }
 
 .carrosel-filmes{
-    margin-top: 10px;
+    background-color: #292b2b;
+}
+
+.carrosel-filmes h3{
+    color: #fff;
+    padding: 5px;
 }
